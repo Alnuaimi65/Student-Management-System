@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	background-color: #34495e;
+    color: white;
+}
+body{
+	background-color: #34495e;
+}
+th, td, h1 {
+	text-align: center;
+	margin: 40px 0 40px;
+	text-align: center;
+	font-size: 30px;
+	color: #ecf0f1;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: 'Cherry Swash', cursive;
+}
+th{
+	font-size: 20px;
+}
+td{
+	font-size: 16px;
+}
+table{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    border: 1px solid white;
+}
+.conWrap{
+	display: flex;
+	flex-direction: row;
+}
